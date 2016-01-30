@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BSKListenerCamera</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="camera_close_prompt">detecting usb camera,please close camera application!</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">音乐</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="kugou_music">酷狗音乐</string>
+    <string name="qq_music">QQ音乐</string>
+    <string name="baidu_music">百度音乐</string>
+    <string name="xiami_music">虾米音乐</string>
+    <string name="douban_music">豆瓣音乐</string>
+    
+    <string name="no_network">网络连接不通哦!</string>
+    <string name="no_network_tip">可以通过以下网络设置重新连接</string>
+    <string name="network_setting">网络设置</string>
+    
+    <string name="exit">退出</string>
+
+</resources>

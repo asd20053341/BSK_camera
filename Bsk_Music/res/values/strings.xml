@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="kugou_music">Kugou Music</string>
+    <string name="qq_music">QQ Music</string>
+    <string name="baidu_music">Baidu Music</string>
+    <string name="xiami_music">Xiami Music</string>
+    <string name="douban_music">Douban Music</string>
+    
+    <string name="no_network">Sorry! Network can not connect!</string>
+    <string name="no_network_tip">Please reconnect to the network in the \n "Settings -> network connection".</string>
+    <string name="network_setting">To set network</string>
+    
+    <string name="exit">Exit</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<cleardata>
+	<data>
+		<type>app</type>
+		<path>com.cnlaunch.alarmbyhour</path>
+	</data>
+	
+	<data>
+		<type>file</type>
+		<path>/mnt/sdcard/a.txt</path>
+	</data>
+	
+	<data>
+		<type>dir</type>
+		<path>/mnt/sdcard/a</path>
+	</data>
+	
+	<data>
+		<type>app</type>
+		<path>com.cnlaunch.myapidemo</path>
+	</data>
+	
+</cleardata>

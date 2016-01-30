@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dip" >
+
+    <ImageView
+        android:id="@+id/imgApp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:text="应用名 : " >
+
+            <!-- android:background="#EEB422" -->
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvAppLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_marginLeft="25dip"
+            android:layout_toRightOf="@id/tvLabel"
+            android:text="Label"
+            android:textColor="#473C8B" >
+
+            <!-- android:background="#E066FF" -->
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel"
+            android:text="包名:" >
+
+            <!-- android:background="#DC143C" -->
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvPkgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvAppLabel"
+            android:layout_below="@id/tvAppLabel"
+            android:textColor="#473C8B" >
+
+            <!-- android:background="#D4D4D4" -->
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvPId"
+            android:layout_width="wrap_content"
+            android:layout_height="21dip"
+            android:layout_below="@id/tvName"
+            android:text="所在进程ID:" >
+
+            <!-- android:background="#C0FF3E" -->
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvProcessId"
+            android:layout_width="wrap_content"
+            android:layout_height="21dip"
+            android:layout_alignLeft="@id/tvPkgName"
+            android:layout_below="@id/tvPkgName"
+            android:textColor="#473C8B" >
+
+            <!-- android:background="#B452CD" -->
+        </TextView>
+        <!--
+        <TextView
+            android:id="@+id/tvPName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPId"
+            android:text="所在进程名:"
+            android:textColor="#FF0000"
+            android:background="#AAAAAA" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvProcessName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvProcessId"
+            android:layout_below="@id/tvProcessId"
+            android:textColor="#FF0000"
+            android:background="#9370DB" >
+        </TextView>
+        -->
+    </RelativeLayout>
+
+</LinearLayout>
